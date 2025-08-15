@@ -6,3 +6,5 @@ node_modules/
 
 # Ignore environment variables file
 .env
+
+# End of .gitignore file
