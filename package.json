@@ -1,7 +1,7 @@
 {
   "name": "ci-pipeline-dashboard",
   "version": "1.0.0",
-  "description": "A simple web-based dashboard to visualize and monitor the status of CI/CD pipelines in real-time.",
+  "description": "A web-based dashboard to visualize and monitor CI/CD pipeline statuses in real-time.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
