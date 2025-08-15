@@ -4,11 +4,15 @@
   "description": "A simple web-based dashboard to visualize and monitor the status of CI/CD pipelines in real-time.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.0.0",
     "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
